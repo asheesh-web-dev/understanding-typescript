@@ -1,36 +1,24 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependency directories (matches them anywhere in your subdirs)
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# TypeScript compilation outputs (ignores compiled JS, source maps, and declaration files)
+*.js
+*.js.map
+*.d.ts
 
-# testing
-/coverage
+# Alternatively, if you compile your code into specific output folders (like 'dist' or 'out')
+dist/
+out/
 
-# next.js
-/.next/
-/out/
+# IDE and Editor configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# production
-/build
-
-# misc
+# OS generated files
 .DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env*.local
-.env
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+Thumbs.db
